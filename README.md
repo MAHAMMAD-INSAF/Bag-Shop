@@ -1,6 +1,6 @@
 # Bag Shop
 
-A premium bag store built with Node.js, Express, and MongoDB. This is a full-stack e-commerce application featuring distinct roles for users and owners.
+A  bag store built with Node.js, Express, and MongoDB. This is a full-stack e-commerce application featuring distinct roles for users and owners.
 
 ## Features
 
@@ -10,16 +10,7 @@ A premium bag store built with Node.js, Express, and MongoDB. This is a full-sta
 *   **RESTful API**: Organized routes for users, owners, and products.
 *   **Server-Side Rendering**: Uses EJS for dynamic HTML generation.
 
-## Prerequisites
 
-Before you begin, ensure you have the following installed on your system:
-*   [Node.js](https://nodejs.org/en/) (v16 or later recommended)
-*   [npm](https://www.npmjs.com/) (comes with Node.js)
-*   [MongoDB](https://www.mongodb.com/try/download/community) (or a cloud-based MongoDB Atlas account)
-
-## Getting Started
-
-Follow these steps to get your development environment set up.
 
 ### 1. Clone the repository
 
@@ -52,9 +43,6 @@ EXPRESS_SESSION_SECRET_KEY=your_super_secret_and_random_session_key
 MONGODB_URI=mongodb://localhost:27017/bag-shop
 ```
 
-> **Note:**
-> *   Replace `your_super_secret_and_random_session_key` with a unique, randomly generated string for security.
-> *   Update `MONGODB_URI` with your own local or cloud-based MongoDB connection string.
 
 ## Running the Application
 
